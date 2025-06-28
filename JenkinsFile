@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages {
     stage {
-      step("Hello From Jenkins")
+      steps("Hello From Jenkins")
     }
   }
 }
